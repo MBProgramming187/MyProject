@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <style>
+        * {
+            background-color: black;
+        }
+
+        .uu {
+            background-color: black;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        .q {
+            width: 300px;
+            height: 200px;
+        }
+
+        .bg-dark {
+            display: flex;
+            justify-content: center;
+        }
+
+        .oop1 {
+            display: none;
+        }
+
+        #pp1 {
+            display: block;
+            opacity: 1;
+        }
+
+        #pp2 {
+            display: none;
+        }
+
+        #pp3 {
+            display: none;
+        }
+
+        .row {
+            transition: all 2s ease-in-out;
+        }
+
+        .wew-show {
+            display: block;
+            opacity: 1;
+            transition: all 2s;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <div class="container-fluid uu">
+        <div class="row gy-3 my-3">
+            <div class="col-sm-6 col-md-4 col-lg-3 qq1" id="pp1">
+                <div class="first-1">
+                    <img class="q" src="https://drive.google.com/uc?export=download&id=1UK_OFQU1BrvTXfFv4yFlF09cBX8KMDY0" alt="" srcset="">
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 qq2" id="pp2">
+                <div class="first-2">
+                    <img class="q" src="https://drive.google.com/uc?export=download&id=1AK-svbYuFCrJrk4_34E0FpSC7pUOTbpb" alt="" srcset="">
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 qq3" id="pp3">
+                <div class="first-3">
+                    <img class="q" src="https://drive.google.com/uc?export=download&id=12LQDZG0nOpqE8Cut5f-n566hkLjxFz76" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark">
+        <button class="btn bg-primary" type="button" onclick="Prev()" id="prev">Prev</button>
+        <button class="btn bg-primary" type="button" onclick="Next()" id="next">Next</button>
+    </div>
+</body>
+</html>
+
+<script src="test.js"></script>
